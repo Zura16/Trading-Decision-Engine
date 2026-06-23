@@ -4,7 +4,7 @@ A production-grade, event-driven quantitative trading system that simulates orde
 
 ---
 
-## 📊 System Architecture & Data Flow
+## System Architecture & Data Flow
 
 ```mermaid
 graph TD
@@ -21,7 +21,7 @@ graph TD
 
 ---
 
-## 🚀 Key Modules & System Features
+## Key Modules & System Features
 
 ### 1. Market Data Simulation & Ingestion (`data_simulator.py`)
 - **Historical Ingestion**: Pulls historical price bars for target assets (e.g., stocks, crypto) using `yfinance` to seed indicators and train the model. Automatically falls back to synthetic history if offline.
@@ -59,7 +59,7 @@ graph TD
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Prerequisites
 - **Python**: Version 3.10+
@@ -97,7 +97,7 @@ DASH_HOST=127.0.0.1
 
 ---
 
-## 🖥️ Command Line Usage Guide
+## Command Line Usage Guide
 
 The system is managed using the unified orchestrator script `main.py`.
 
